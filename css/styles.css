@@ -880,6 +880,11 @@ screen and (-ms-high-contrast: none) {
     background-size: cover;
 }
 
+.header .method {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/project-6.jpg') center center no-repeat;
+    background-size: cover;
+}
+
 .header .header-content {
     padding-top: 8rem;
     padding-bottom: 2.125rem;
@@ -1357,8 +1362,8 @@ screen and (-ms-high-contrast: none) {
 }
 
 .slider .card-image {
-    width: 6rem;
-    height: 6rem;
+    width: 7rem;
+    height: 7rem;
     margin-right: auto;
     margin-bottom: 0.25rem;
     margin-left: auto;
@@ -2531,3 +2536,55 @@ a:hover.back-to-top {
 
 
 /* end of min-width width 1200px */
+
+
+/* jmtm edit */
+
+.img-fluid .intro {
+    padding: 0px 0px 0px 100px;
+}
+
+@media (min-width: 1600px) {
+    .img-fluid .intro {
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.img-fluidana {
+    height: 200px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+@media (min-width: 1600px) {
+    .img-fluidana {
+        height: 200px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+}
+
+.media-body.method {
+    color: black;
+    margin: 10px 0px 0px 10px;
+}
+
+@media (min-width: 1600px) {
+    .media-body.method {
+        color: black;
+        margin: 10px 0px 0px 10px;
+    }
+}
+
+.media-body.features {
+    font-size: 18px;
+}
+
+@media (min-width: 1600px) {
+    .media-body.features {
+        font-size: 18px;
+    }
+}
+
+
+/* jmtm edit */
