@@ -870,18 +870,8 @@ screen and (-ms-high-contrast: none) {
 
 /*********************/
 
-.header .index {
+.header {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.header .ana {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/project-2.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-.header .method {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/project-6.jpg') center center no-repeat;
     background-size: cover;
 }
 
