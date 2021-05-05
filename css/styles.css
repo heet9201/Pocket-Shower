@@ -738,6 +738,13 @@ screen and (-ms-high-contrast: none) {
     transition: all 0.2s;
 }
 
+
+/* .fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%
+} */
+
 .navbar-custom .navbar-brand {
     font-size: 0;
 }
@@ -2381,8 +2388,8 @@ a:hover.back-to-top {
     /* end of general styles */
     /* Navigation */
     .navbar-custom {
-        padding-right: 5rem;
-        padding-left: 5rem;
+        padding: 2rem 4rem 0rem 5rem;
+        /* padding-left: 5rem; */
     }
     .navbar-custom.top-nav-collapse {
         padding-right: 5rem;
@@ -2556,7 +2563,8 @@ a:hover.back-to-top {
 
 .media-body.method {
     color: black;
-    margin: 10px 0px 0px 10px;
+    padding: 0px 0px 10px 20px;
+    margin: 0px 0px 10px 0px;
 }
 
 @media (min-width: 1600px) {
@@ -2574,6 +2582,10 @@ a:hover.back-to-top {
     .media-body.features {
         font-size: 18px;
     }
+}
+
+.pad01 {
+    margin-top: 5px;
 }
 
 
